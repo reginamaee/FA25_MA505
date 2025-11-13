@@ -1,0 +1,16 @@
+Student,Restaurant,FoodQuality,Service
+Mark,Kings,7,8
+Mark,Jamaican Grill,8,6.5
+Mark,Fuji,9,6
+Rhonda,Kings,9,9
+Rhonda,Jamaican Grill,8,9
+Rhonda,Fuji,10,9
+Dannika,Kings,7,7
+Dannika,Jamaican Grill,7,8
+Dannika,Fuji,8,6
+Robert,Kings,6,7
+Robert,Jamaican Grill,7,7
+Robert,Fuji,8,7
+Tim,Kings,,
+Tim,Jamaican Grill,,
+Tim,Fuji,,
