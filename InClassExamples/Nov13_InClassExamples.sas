@@ -7,13 +7,13 @@
 
 DATA food_survey;
 	set ma505.food_surv_wide;
-	Score_Sum = SUM(FoodQuality, Service);
+	Score_Sum = FoodQuality + Service;
 	Score_avg = MEAN(FoodQuality, Service);
 RUN;
 
 DATA food_survey;
 	set ma505.food_surv_wide;
-	Score_Sum = SUM(FoodQuality, Service);
+	Score_Sum = FoodQuality + Service;
 	output;
 	Score_avg = MEAN(FoodQuality, Service);
 	output;
