@@ -93,7 +93,7 @@ run;
 /* conditional do-loops
 /***********************************/
 
-data characters;
+data savings;
     input Name $ Amount;
     datalines;
 Elphaba 250

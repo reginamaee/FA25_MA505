@@ -6,7 +6,7 @@ data YearSaving;
     Amount = 200;
     retain Savings 0;
     do Month=1 to 12 by 2;
-        Saving = Savings + Amount*2;
+        Savings = Savings + Amount*2;
         output;
     end;
     format Savings 12.2;
