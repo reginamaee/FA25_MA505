@@ -1,0 +1,54 @@
+                                                Long to Wide (DATA step)                                                
+
+  Obs  FOODQUALITY  SERVICE  STUDENT      RESTAURANT
+    1            8        6  Dannika  Fuji
+    2            7        8  Dannika  Jamaican Grill
+    3            7        7  Dannika  Kings
+    4            9        6  Mark     Fuji
+    5            8      6.5  Mark     Jamaican Grill
+    6            7        8  Mark     Kings
+    7           10        9  Rhonda   Fuji
+    8            8        9  Rhonda   Jamaican Grill
+    9            9        9  Rhonda   Kings
+   10            8        7  Robert   Fuji
+   11            7        7  Robert   Jamaican Grill
+   12            6        7  Robert   Kings
+   13            .        .  Tim      Fuji
+   14            .        .  Tim      Jamaican Grill
+   15            .        .  Tim      Kings
+
+                                             Long to Wide (PROC TRANSPOSE)                                              
+
+  Obs  STUDENT      RESTAURANT  FOOD_QUALITY  SERVICE
+    1  Dannika  Fuji                       8        6
+    2  Dannika  Jamaican Grill             7        8
+    3  Dannika  Kings                      7        7
+    4  Mark     Fuji                       9        6
+    5  Mark     Jamaican Grill             8      6.5
+    6  Mark     Kings                      7        8
+    7  Rhonda   Fuji                      10        9
+    8  Rhonda   Jamaican Grill             8        9
+    9  Rhonda   Kings                      9        9
+   10  Robert   Fuji                       8        7
+   11  Robert   Jamaican Grill             7        7
+   12  Robert   Kings                      6        7
+   13  Tim      Fuji                       .        .
+   14  Tim      Jamaican Grill             .        .
+   15  Tim      Kings                      .        .
+
+                                             Wide to Long (PROC TRANSPOSE)                                              
+
+  Obs  STUDENT      RESTAURANT     CATEGORY  SCORE
+    1  Dannika  Fuji            FoodQuality      8
+    2  Dannika  Fuji            Service          6
+    3  Dannika  Jamaican Grill  FoodQuality      7
+    4  Dannika  Jamaican Grill  Service          8
+    5  Dannika  Kings           FoodQuality      7
+    6  Dannika  Kings           Service          7
+    7  Mark     Fuji            FoodQuality      9
+    8  Mark     Fuji            Service          6
+    9  Mark     Jamaican Grill  FoodQuality      8
+   10  Mark     Jamaican Grill  Service        6.5
+
+... 20 more observations (showing 10 of 30)
+

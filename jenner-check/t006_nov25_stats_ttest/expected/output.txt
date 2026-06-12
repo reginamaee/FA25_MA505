@@ -1,0 +1,281 @@
+                                                   The FREQ Procedure
+
+                                                 Cumulative    Cumulative
+Species                Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------
+Ixora triantha                16     33.33           16        33.33
+Pandanus tectorius            16     33.33           32        66.67
+Premna serratifolia           16     33.33           48       100.00
+
+                                     Cumulative    Cumulative
+Date       Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+2020-04           24     50.00           24        50.00
+2021-09           24     50.00           48       100.00
+                                             Height distribution by Species                                             
+
+                        Species=Ixora triantha
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  Height
+
+                                                        Moments
+
+N                                  8    Sum Weights                        8
+Mean                       31.153161    Sum Observations          249.225290
+Std Deviation              18.528422    Variance                  343.302424
+Skewness                   -2.034720    Kurtosis                    4.845725
+Uncorrected SS          10167.272632    Corrected SS             2403.116970
+Coeff Variation            59.475255    Std Error Mean              6.550786
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean       31.153161  Std Deviation   18.528422
+Median     35.126967  Variance       343.302424
+Mode      -11.231670  Range           58.657873
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      -11.231670
+1%          -11.231670
+5%          -11.231670
+10%         -11.231670
+25% Q1       28.490847
+50% Median   35.126967
+75% Q3       42.897565
+90%          47.426203
+95%          47.426203
+99%          47.426203
+100% Max     47.426203
+
+          Extreme Observations           
+
+Lowest                Highest            
+--------  ----------  --------  ---------
+Value     -11.231670  Value     34.755112
+Value      27.183685  Value     35.498823
+Value      29.798008  Value     40.023798
+Value      34.755112  Value     45.771332
+Value      35.498823  Value     47.426203
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         4.75563683  0.002069919
+Sign                        3  0.0703125
+Signed Rank                34  0.017290259
+
+
+                        Species=Pandanus tectorius
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  Height
+
+                                                        Moments
+
+N                                  8    Sum Weights                        8
+Mean                      107.360760    Sum Observations          858.886081
+Std Deviation              46.183139    Variance                 2132.882321
+Skewness                   -0.802526    Kurtosis                   -0.832824
+Uncorrected SS         107140.838690    Corrected SS            14930.176246
+Coeff Variation            43.016777    Std Error Mean             16.328205
+
+           Basic Statistical Measures           
+
+Location              Variability               
+--------  ----------  -------------  -----------
+Mean      107.360760  Std Deviation    46.183139
+Median    119.112696  Variance       2132.882321
+Mode       32.185519  Range           119.933749
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       32.185519
+1%           32.185519
+5%           32.185519
+10%          32.185519
+25% Q1       70.564003
+50% Median  119.112696
+75% Q3      147.613948
+90%         152.119268
+95%         152.119268
+99%         152.119268
+100% Max    152.119268
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value      32.185519  Value     117.716218
+Value      47.758460  Value     120.509174
+Value      93.369546  Value     145.798392
+Value     117.716218  Value     149.429505
+Value     120.509174  Value     152.119268
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         6.575172087  0.000311423
+Sign                        4  0.0078125
+Signed Rank                36  0.011718724
+
+
+                        Species=Premna serratifolia
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  Height
+
+                                                        Moments
+
+N                                  8    Sum Weights                        8
+Mean                      111.724368    Sum Observations          893.794941
+Std Deviation              35.221929    Variance                 1240.584309
+Skewness                   -0.019554    Kurtosis                   -1.593186
+Uncorrected SS         108542.764640    Corrected SS             8684.090164
+Coeff Variation            31.525736    Std Error Mean             12.452833
+
+           Basic Statistical Measures           
+
+Location              Variability               
+--------  ----------  -------------  -----------
+Mean      111.724368  Std Deviation    35.221929
+Median    118.960646  Variance       1240.584309
+Mode       67.979713  Range            88.832174
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       67.979713
+1%           67.979713
+5%           67.979713
+10%          67.979713
+25% Q1       75.834676
+50% Median  118.960646
+75% Q3      139.706349
+90%         156.811887
+95%         156.811887
+99%         156.811887
+100% Max    156.811887
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value      67.979713  Value     118.403241
+Value      71.973694  Value     119.518051
+Value      79.695657  Value     124.535237
+Value     118.403241  Value     154.877460
+Value     119.518051  Value     156.811887
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         8.97180357  0.000043536
+Sign                        4  0.0078125
+Signed Rank                36  0.011718724
+
+                   The TTEST Procedure                    
+                    Variable:  Height                     
+
+Species                    N      Mean   Std Dev   Std Err
+------------------  --------  --------  --------  --------
+Ixora triantha             8   31.1532   18.5284    6.5508
+Pandanus tectorius         8  107.3608   46.1831   16.3282
+Diff (1-2)                    -76.2076                    
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            14     -4.33    0.0007
+Satterthwaite  Unequal         9.2     -4.33    0.0018
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F      6.21    0.0278
+
+                   The TTEST Procedure                    
+                    Variable:  Height                     
+
+Species                    N      Mean   Std Dev   Std Err
+------------------  --------  --------  --------  --------
+Ixora triantha             8   31.1532   18.5284    6.5508
+Pandanus tectorius         8  107.3608   46.1831   16.3282
+Diff (1-2)                    -76.2076                    
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            14     -4.33    0.0003
+Satterthwaite  Unequal         9.2     -4.33    0.0009
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F      6.21    0.0278
+
+
+Dependent Variable: Height
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+Species                  2      32848.9559      16424.4780      13.26     0.0002
+Error                   21      26017.3834       1238.9230          .          .
+Corrected Total         23      58866.3393                          .          .
+
+R-Square: 0.5580  Root MSE: 35.1983  Mean: 83.4128
+
+
+Tukey's Studentized Range (HSD) Test for Height
+
+Alpha                            0.05
+Error Degrees of Freedom         21
+Error Mean Square                1238.923018
+
+Level of          -----------Species----------
+Species               N         Mean      Std Dev
+
+Ixora triantha        8      31.1532      18.5284
+Pandanus tectorius      8     107.3608      46.1831
+Premna serratifolia      8     111.7244      35.2219
+
+Comparisons significant at the 0.05 level are indicated by ***.
+
+Comparison             Difference      Std Err  Significant
+------------------------------------------------------------
+Ixora triantha - Pandanus tectorius     -76.2076      17.5992          ***
+Ixora triantha - Premna serratifolia     -80.5712      17.5992          ***
+Pandanus tectorius - Premna serratifolia      -4.3636      17.5992             
+
+
+                    The CORR Procedure
+                            1 Variables:    Height
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+Height          48  55.54267  45.82089  2666.04823  -11.23167  156.81189
+   Pearson Correlation Coefficients, N = 48
+          Prob > |r| under H0: Rho=0
+              Height
+--------  --------
+Height     1.00000
+              .

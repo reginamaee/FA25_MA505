@@ -1,0 +1,31 @@
+
+  Obs  STUDENT      RESTAURANT  FOODQUALITY  SERVICE  SCORE_SUM  SCORE_AVG
+-----  -------  --------------  -----------  -------  ---------  ---------
+    1  Mark     Kings                     7        8         15          .
+    2  Mark     Kings                     7        8         15        7.5
+    3  Mark     Jamaican Grill            8      6.5       14.5          .
+    4  Mark     Jamaican Grill            8      6.5       14.5       7.25
+    5  Mark     Fuji                      9        6         15          .
+    6  Mark     Fuji                      9        6         15        7.5
+    7  Rhonda   Kings                     9        9         18          .
+    8  Rhonda   Kings                     9        9         18          9
+    9  Rhonda   Jamaican Grill            8        9         17          .
+   10  Rhonda   Jamaican Grill            8        9         17        8.5
+
+... 20 more observations (showing 10 of 30)
+
+  Obs  TOTAL  STUDENT      RESTAURANT      CATEGORY  SCORE
+-----  -----  -------  --------------  ------------  -----
+    1      7  Mark     Kings           Food Quality      7
+    2     15  Mark     Kings           Service           8
+    3     23  Mark     Jamaican Grill  Food Quality      8
+    4   29.5  Mark     Jamaican Grill  Service         6.5
+    5   38.5  Mark     Fuji            Food Quality      9
+    6   44.5  Mark     Fuji            Service           6
+    7   53.5  Rhonda   Kings           Food Quality      9
+    8   62.5  Rhonda   Kings           Service           9
+    9   70.5  Rhonda   Jamaican Grill  Food Quality      8
+   10   79.5  Rhonda   Jamaican Grill  Service           9
+
+... 20 more observations (showing 10 of 30)
+

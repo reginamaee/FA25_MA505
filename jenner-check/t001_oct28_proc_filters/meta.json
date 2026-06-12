@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_oct28_proc_filters",
+  "source_file": "InClassExamples/Oct28_InClassExamples.sas",
+  "source_blob_sha": "4c91f59d2a9490224a453ec2a6ff177e69deb539",
+  "source_commit": "42bad5be9a4913f47fe580f1faa014c5492f4254",
+  "tier": "real_data",
+  "notes": "Base PROCs (PRINT/MEANS/UNIVARIATE/FREQ) + WHERE filters (AND/IN/missing/between) + macro-var filtering on sashelp.cars. Minimal fidelity edits: IN list 'Suv'->'Sedan' (case typo matched nothing), macro Kia->Acura so the macro filter shows live rows under the 100-row cap."
+}

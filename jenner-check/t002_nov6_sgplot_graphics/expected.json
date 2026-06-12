@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T21:34:56.776983+00:00",
+  "_captured_run_id": "r_019ebdc230397452bb6a4ee530c85661",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "PROC SGPLOT",
+    "PROC SGPANEL",
+    "Box Plot of Cholesterol by Sex"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,44 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Library MA505 assigned path=..
+NOTE: DATA ma505.outplant
+
+NOTE: Processing inline DATALINES (48 lines)
+
+NOTE: Read 48 rows from DATALINES.
+NOTE: Wrote ma505.outplant (48 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: ODS Graphics is OFF.
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.
+NOTE: DATA second_date
+
+
+NOTE: Read 48 rows from ma505.outplant.
+NOTE: Wrote second_date (24 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=second_date
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 24 rows from second_date.
+NOTE: Wrote second_date (24 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC UNIVARIATE
+NOTE: PROC TTEST data=second_date
+
+NOTE: PROC TTEST statement used.
+NOTE: PROC TTEST data=second_date
+
+NOTE: PROC TTEST statement used.
+NOTE: PROC ANOVA data=second_date
+
+NOTE: PROC ANOVA: using Python wrapper for advanced features
+NOTE: PROC ANOVA: 24 observations, 1 effects analyzed
+NOTE: PROC CORR data=ma505.outplant
+

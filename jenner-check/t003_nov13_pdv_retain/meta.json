@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_nov13_pdv_retain",
+  "source_file": "InClassExamples/Nov13_InClassExamples.sas",
+  "source_blob_sha": "6d9ecc1611f5114ef468359554ea3b6b71c3f273",
+  "source_commit": "42bad5be9a4913f47fe580f1faa014c5492f4254",
+  "tier": "real_data",
+  "notes": "PDV lesson verbatim (retain/SUM cumulative + multi-output DATA step) on the class food-survey data. Substitution: autoexec recreates the ma505 library with inline datalines DATA steps built from Datasets/class_food_survey*.csv, so the original ma505.food_surv / ma505.food_surv_wide refs resolve with no external files (owner runner submits script only)."
+}

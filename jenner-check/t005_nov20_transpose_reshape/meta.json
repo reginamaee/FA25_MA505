@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_nov20_transpose_reshape",
+  "source_file": "InClassExamples/Nov20_InClassExamples.sas",
+  "source_blob_sha": "a0b64a0e75736cfa67d651f3362d7a8600dfa97c",
+  "source_commit": "42bad5be9a4913f47fe580f1faa014c5492f4254",
+  "tier": "real_data",
+  "notes": "long<->wide reshape via DATA step (retain + first./last.) and PROC TRANSPOSE both directions, on the class food-survey data. Substitution: ma505.food_surv recreated inline from Datasets/class_food_survey.csv (owner runner submits script only). Student code verbatim."
+}

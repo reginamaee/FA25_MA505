@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_nov6_sgplot_graphics",
+  "source_file": "InClassExamples/Nov6_InClassExamples.sas",
+  "source_blob_sha": "5a358c77d113193e74aa540a1fcebc43d34f6461",
+  "source_commit": "42bad5be9a4913f47fe580f1faa014c5492f4254",
+  "tier": "real_data",
+  "notes": "PROC SGPLOT scatter/histogram/density + SGPANEL panelby + vbox. Lesson techniques from Nov6 (and the Nov25 heart scatter/panel) on sashelp.class and sashelp.heart, which Jenner bundles. Produces 6 plots (PNG+SVG)."
+}

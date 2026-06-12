@@ -1,0 +1,8 @@
+{
+  "bundle": "t006_nov25_stats_ttest",
+  "source_file": "InClassExamples/Nov25_InClassExamples.sas",
+  "source_blob_sha": "132b782433a0228329a7405c853801973958eb75",
+  "source_commit": "42bad5be9a4913f47fe580f1faa014c5492f4254",
+  "tier": "real_data",
+  "notes": "Hypothesis tests & correlation: PROC FREQ/UNIVARIATE/TTEST(two-sided + sides=L)/ANOVA(Tukey)/CORR on a balanced 48-row sample of the outplanting data (16/species, 24/date). Substitution: ma505.outplant recreated inline from a cleaned, balanced sample of Datasets/mock_outplanting_data.csv; date filter uses the CSV's YYYY-MM values; ods graphics off (tabular stats only; owner runner submits script only). Student proc syntax preserved."
+}

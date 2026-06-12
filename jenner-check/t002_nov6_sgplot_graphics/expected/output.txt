@@ -1,0 +1,70 @@
+PROC SGPANEL Output
+Data: sashelp.heart
+
+Variables: Status, DeathCause, AgeCHDdiag, Sex, AgeAtStart, Height, Weight, Diastolic, Systolic, MRW, Smoking, AgeAtDeath, Cholesterol, Chol_Status, BP_Status, Weight_Status, Smoking_Status
+
+    Status  DeathCause  AgeCHDdiag         Sex  AgeAtStart      Height      Weight   Diastolic    Systolic         MRW     Smoking  AgeAtDeath  Cholesterol  Chol_Status   BP_Status  Weight_Status  Smoking_Status
+----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  -----------  -----------  ----------  -------------  --------------
+     Alive           .           .      Female          42        62.5         140          78         124         115           0           .          210    Desirable      Normal         Normal      Non-smoker
+      Dead  Coronary Heart Disease          57        Male          40          68         185          88         148         128          25          72          285         High        High     Overweight   Heavy (16-25)
+     Alive           .           .        Male          45          70         175          82         134         120           0           .          225    Desirable      Normal         Normal      Non-smoker
+      Dead      Cancer           .      Female          52          64         155          84         140         122          15          68          245   Borderline        High     Overweight  Moderate (6-15)
+     Alive           .           .        Male          38        71.5         195          76         128         118           5           .          198    Desirable      Normal     Overweight     Light (1-5)
+      Dead  Coronary Heart Disease          62        Male          48          69         200          92         156         135          30          70          310         High        High     Overweight   Heavy (16-25)
+     Alive           .           .      Female          35          63         130          72         118         108           0           .          195    Desirable      Normal         Normal      Non-smoker
+      Dead  Cerebral Vascular Disease           .        Male          55        67.5         190          96         162         132          20          74          275         High        High     Overweight   Heavy (16-25)
+     Alive           .           .        Male          41          72         180          80         130         116           0           .          215    Desirable      Normal         Normal      Non-smoker
+      Dead  Coronary Heart Disease          52      Female          46          61         165          90         150         130          10          65          260         High        High     Overweight  Moderate (6-15)
+     Alive           .           .      Female          39        64.5         145          74         122         112           0           .          205    Desirable      Normal         Normal      Non-smoker
+      Dead       Other           .        Male          58          66         170          86         142         125          35          75          240   Borderline        High         Normal   Heavy (16-25)
+     Alive           .           .        Male          43          73         190          78         126         114           0           .          220    Desirable      Normal         Normal      Non-smoker
+      Dead  Coronary Heart Disease          60        Male          50        68.5         210          94         158         140          20          71          295         High        High     Overweight   Heavy (16-25)
+     Alive           .           .      Female          37          65         135          70         116         106           0           .          188    Desirable      Normal         Normal      Non-smoker
+     Alive           .           .        Male          44        70.5         178          82         132         119          10           .          232   Borderline      Normal         Normal  Moderate (6-15)
+      Dead      Cancer           .      Female          56          62         150          80         136         120          20          69          250   Borderline      Normal     Overweight   Heavy (16-25)
+     Alive           .           .        Male          36          74         200          76         124         112           0           .          208    Desirable      Normal     Overweight      Non-smoker
+      Dead  Coronary Heart Disease          55        Male          47          67         195          90         152         133          25          68          280         High        High     Overweight   Heavy (16-25)
+     Alive           .           .      Female          40        63.5         138          76         120         110           5           .          200    Desirable      Normal         Normal     Light (1-5)
+      Dead  Coronary Heart Disease          58        Male          49        69.5         205          92         154         136          15          73          270         High        High     Overweight  Moderate (6-15)
+     Alive           .           .        Male          42          71         182          80         128         117           0           .          218    Desirable      Normal         Normal      Non-smoker
+      Dead       Other           .      Female          60        61.5         160          88         146         128           0          67          235   Borderline        High     Overweight      Non-smoker
+     Alive           .           .        Male          38        72.5         188          78         126         115           5           .          212    Desirable      Normal         Normal     Light (1-5)
+      Dead  Coronary Heart Disease          54        Male          46          68         198          94         160         138          30          70          300         High        High     Overweight   Heavy (16-25)
+     Alive           .           .      Female          34          64         132          72         114         107           0           .          192    Desirable      Normal         Normal      Non-smoker
+      Dead  Cerebral Vascular Disease           .      Female          54        62.5         158          92         156         127          10          72          265         High        High     Overweight  Moderate (6-15)
+     Alive           .           .        Male          41          70         176          80         130         118           0           .          222   Borderline      Normal         Normal      Non-smoker
+      Dead  Coronary Heart Disease          59        Male          51          69         202          90         150         134          20          74          288         High        High     Overweight   Heavy (16-25)
+     Alive           .           .      Female          37        65.5         142          74         118         110           0           .          198    Desirable      Normal         Normal      Non-smoker
+     Alive           .           .        Male          45        71.5         184          82         132         119          10           .          228   Borderline      Normal         Normal  Moderate (6-15)
+      Dead      Cancer           .        Male          57        66.5         175          84         138         124          25          73          248   Borderline      Normal         Normal   Heavy (16-25)
+     Alive           .           .      Female          33          63         128          70         112         105           0           .          185    Desirable      Normal         Normal      Non-smoker
+      Dead  Coronary Heart Disease          56        Male          48        68.5         208          96         162         142          20          69          305         High        High     Overweight   Heavy (16-25)
+     Alive           .           .        Male          40        73.5         192          78         126         113           0           .          210    Desirable      Normal         Normal      Non-smoker
+      Dead       Other           .      Female          59          61         155          86         144         126          15          76          242   Borderline        High     Overweight  Moderate (6-15)
+     Alive           .           .        Male          43        70.5         180          80         128         117           5           .          216    Desirable      Normal         Normal     Light (1-5)
+      Dead  Coronary Heart Disease          61        Male          52        67.5         196          92         156         135          25          72          292         High        High     Overweight   Heavy (16-25)
+     Alive           .           .      Female          36        64.5         136          74         120         109           0           .          196    Desirable      Normal         Normal      Non-smoker
+     Alive           .           .        Male          44          72         186          82         134         120           0           .          224    Desirable      Normal         Normal      Non-smoker
+      Dead  Coronary Heart Disease          53        Male          47          69         200          90         152         132          30          68          282         High        High     Overweight   Heavy (16-25)
+     Alive           .           .      Female          39        63.5         140          76         122         112           0           .          202    Desirable      Normal         Normal      Non-smoker
+      Dead  Cerebral Vascular Disease           .        Male          56          68         188          94         158         130          15          75          268         High        High     Overweight  Moderate (6-15)
+     Alive           .           .        Male          42          71         178          80         130         118           5           .          218    Desirable      Normal         Normal     Light (1-5)
+      Dead      Cancer           .      Female          55          62         148          82         136         122          20          70          252         High      Normal     Overweight   Heavy (16-25)
+     Alive           .           .        Male          38          73         195          76         124         114           0           .          208    Desirable      Normal     Overweight      Non-smoker
+      Dead  Coronary Heart Disease          57        Male          49          67         204          92         154         137          20          71          296         High        High     Overweight   Heavy (16-25)
+     Alive           .           .      Female          35          65         134          72         116         108           0           .          190    Desirable      Normal         Normal      Non-smoker
+      Dead       Other           .        Male          58        66.5         182          88         148         126          10          76          255         High        High         Normal  Moderate (6-15)
+     Alive           .           .        Male          41        72.5         185          80         128         116           0           .          215    Desirable      Normal         Normal      Non-smoker
+
+AgeCHDdiag: N=12, Min=52.0000, Max=62.0000, Mean=57.0000, Sum=684.0000
+AgeAtStart: N=50, Min=33.0000, Max=60.0000, Mean=45.2200, Sum=2261.0000
+Height: N=50, Min=61.0000, Max=74.0000, Mean=67.4400, Sum=3372.0000
+Weight: N=50, Min=128.0000, Max=210.0000, Mean=173.2600, Sum=8663.0000
+Diastolic: N=50, Min=70.0000, Max=96.0000, Mean=82.7600, Sum=4138.0000
+Systolic: N=50, Min=112.0000, Max=162.0000, Mean=136.4000, Sum=6820.0000
+MRW: N=50, Min=105.0000, Max=142.0000, Mean=121.4000, Sum=6070.0000
+Smoking: N=50, Min=0.0000, Max=35.0000, Mean=10.0000, Sum=500.0000
+AgeAtDeath: N=23, Min=65.0000, Max=76.0000, Mean=71.2174, Sum=1638.0000
+Cholesterol: N=50, Min=185.0000, Max=310.0000, Mean=237.3600, Sum=11868.0000
+                                             Box Plot of Cholesterol by Sex                                             
+

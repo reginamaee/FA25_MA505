@@ -1,0 +1,45 @@
+/* jenner-check autoexec: cap rows + recreate ma505.food_surv from
+   Datasets/class_food_survey.csv, inlined so the lesson's ma505.food_surv
+   reference resolves with no external files. */
+options obs=100;
+libname ma505 ".";
+
+data ma505.food_surv;
+    length Student $ 12;
+    length Restaurant $ 16;
+    length Category $ 16;
+    infile datalines dsd missover;
+    input Student $ Restaurant $ Category $ Score;
+datalines;
+Mark,Kings,Food Quality,7
+Mark,Kings,Service,8
+Mark,Jamaican Grill,Food Quality,8
+Mark,Jamaican Grill,Service,6.5
+Mark,Fuji,Food Quality,9
+Mark,Fuji,Service,6
+Rhonda,Kings,Food Quality,9
+Rhonda,Kings,Service,9
+Rhonda,Jamaican Grill,Food Quality,8
+Rhonda,Jamaican Grill,Service,9
+Rhonda,Fuji,Food Quality,10
+Rhonda,Fuji,Service,9
+Dannika,Kings,Food Quality,7
+Dannika,Kings,Service,7
+Dannika,Jamaican Grill,Food Quality,7
+Dannika,Jamaican Grill,Service,8
+Dannika,Fuji,Food Quality,8
+Dannika,Fuji,Service,6
+Robert,Kings,Food Quality,6
+Robert,Kings,Service,7
+Robert,Jamaican Grill,Food Quality,7
+Robert,Jamaican Grill,Service,7
+Robert,Fuji,Food Quality,8
+Robert,Fuji,Service,7
+Tim,Kings,Food Quality,
+Tim,Kings,Service,
+Tim,Jamaican Grill,Food Quality,
+Tim,Jamaican Grill,Service,
+Tim,Fuji,Food Quality,
+Tim,Fuji,Service,
+;
+run;

@@ -1,0 +1,27 @@
+                                  Cumulative Score by Restaurant (last row per group)                                   
+
+  Obs  RESTAURANTSUM  STUDENT      RESTAURANT  CATEGORY         SCORE
+    1             63  Tim      Fuji            Service   .
+    2           60.5  Tim      Jamaican Grill  Service   .
+    3             60  Tim      Kings           Service   .
+
+  Obs             NAME     GRADE        TEACHER
+-----  ---------------  --------  -------------
+    1  Alex Smith       Junior    Ms. Foster
+    2  Jordan Brown     Freshman  Dr. Davis
+    3  Taylor Williams  Senior    Mr. Evans
+    4  Morgan Johnson   Junior    Ms. Clarke
+    5  Jamie Davis      Freshman  Mrs. Anderson
+
+... 36 more observations (showing 5 of 41)
+
+  Obs            NAME      GRADE  AGE  WEIGHT  HEIGHT   GPA
+-----  --------------  ---------  ---  ------  ------  ----
+    1  Alex Smith      Junior      20   145.6     5.8  3.27
+    2  Avery Thompson  Senior      20   147.3     5.7   3.5
+    3  Casey Taylor    Sophomore   19   140.7     5.6  2.96
+    4  Dakota Moore    Freshman    18   158.8     5.9   3.1
+    5  Drew Wilson     Sophomore   20   165.9       6  3.45
+
+... 5 more observations (showing 5 of 10)
+
