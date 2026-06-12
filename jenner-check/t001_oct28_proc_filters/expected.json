@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-06-12T21:33:31.133209+00:00",
+  "_captured_run_id": "r_019ebdc0959d7ae1b4203e723c584e5e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "PROC PRINT completed: 10 observations printed, 4 variables",
+    "PROC MEANS statement used.",
+    "PROC FREQ statement used.",
+    "Maximum horsepower"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

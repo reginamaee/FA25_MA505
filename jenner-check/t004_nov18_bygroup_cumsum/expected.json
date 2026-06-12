@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-06-12T21:55:45.861569+00:00",
+  "_captured_run_id": "r_019ebdd5567073e197017e9389682bed",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote sum_by_group (3 rows, 5 columns).",
+    "Wrote teacher (41 rows, 3 columns).",
+    "Wrote class_all (10 rows, 6 columns).",
+    "Cumulative Score by Restaurant"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

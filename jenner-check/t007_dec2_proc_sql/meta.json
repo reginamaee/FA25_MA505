@@ -1,0 +1,8 @@
+{
+  "bundle": "t007_dec2_proc_sql",
+  "source_file": "InClassExamples/Dec2_InClassExamples.sas",
+  "source_blob_sha": "d0b4e2fb85363e89445356e7d485e128d4409285",
+  "source_commit": "42bad5be9a4913f47fe580f1faa014c5492f4254",
+  "tier": "real_data",
+  "notes": "PROC SQL lesson: select / where / order by / calculated column (CALCULATED reuse) / aggregate group by, on sashelp.cars. Kept the cars-based queries from Dec2 (the hw1.Storm_Summary xlsx and day9 join CSVs were external paths); query syntax preserved."
+}

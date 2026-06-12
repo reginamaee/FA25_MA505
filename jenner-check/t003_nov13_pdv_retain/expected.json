@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T21:54:39.890901+00:00",
+  "_captured_run_id": "r_019ebdd450b77bd18b9ef4c8c6790dfe",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote food (30 rows, 5 columns).",
+    "Wrote food_survey (30 rows, 6 columns).",
+    "PROC PRINT completed: 10 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

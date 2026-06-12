@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_nov18_bygroup_cumsum",
+  "source_file": "InClassExamples/Nov18_InClassExamples.sas",
+  "source_blob_sha": "058aec00a8b4b435b09b0634ba3ac4642127d390",
+  "source_commit": "42bad5be9a4913f47fe580f1faa014c5492f4254",
+  "tier": "real_data",
+  "notes": "first./last. by-group cumulative sum + PDV demos + merge-prep sort. Substitution: ma505.food_surv recreated inline from Datasets/class_food_survey.csv; the two PROC IMPORTs of /home/u63936157/merging_data/*.csv replaced with inline copies of class_teachers.csv / class_1.csv (owner runner submits script only). Student logic preserved."
+}

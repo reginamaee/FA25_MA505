@@ -1,0 +1,42 @@
+Manufacturer      Model name  Vehicle type  Region of origin  Manufacturer suggested retail price
+------------  --------------  ------------  ----------------  -----------------------------------
+       Acura             MDX           SUV              Asia                                36945
+       Acura  RSX Type S 2dr         Sedan              Asia                                23820
+       Acura         TSX 4dr         Sedan              Asia                                26990
+       Acura          TL 4dr         Sedan              Asia                                33195
+         BMW       325Ci 2dr         Sedan            Europe                                30795
+         BMW         X5 4.4i           SUV            Europe                                52195
+   Chevrolet    Cavalier 4dr         Sedan               USA                                14610
+        Ford    Focus LX 4dr         Sedan               USA                                13005
+       Honda   Accord LX 4dr         Sedan              Asia                                20140
+       Honda    Civic DX 4dr         Sedan              Asia                                13760
+      Toyota    Camry LE 4dr         Sedan              Asia                                19560
+      Toyota  Corolla CE 4dr         Sedan              Asia                                14085
+    Model name  Vehicle type  Region of origin  Manufacturer suggested retail price
+--------------  ------------  ----------------  -----------------------------------
+RSX Type S 2dr         Sedan              Asia                                23820
+ Accord LX 4dr         Sedan              Asia                                20140
+  Camry LE 4dr         Sedan              Asia                                19560
+  Cavalier 4dr         Sedan               USA                                14610
+Corolla CE 4dr         Sedan              Asia                                14085
+  Civic DX 4dr         Sedan              Asia                                13760
+  Focus LX 4dr         Sedan               USA                                13005
+Manufacturer      Model name  Vehicle type  Region of origin  AVG_MPG
+------------  --------------  ------------  ----------------  -------
+       Acura             MDX           SUV              Asia     20.0
+       Acura  RSX Type S 2dr         Sedan              Asia     27.5
+       Acura         TSX 4dr         Sedan              Asia     25.5
+       Acura          TL 4dr         Sedan              Asia     24.0
+         BMW       325Ci 2dr         Sedan            Europe     24.5
+         BMW         X5 4.4i           SUV            Europe     19.0
+   Chevrolet    Cavalier 4dr         Sedan               USA     31.5
+        Ford    Focus LX 4dr         Sedan               USA     31.5
+       Honda   Accord LX 4dr         Sedan              Asia     30.0
+       Honda    Civic DX 4dr         Sedan              Asia     35.0
+      Toyota    Camry LE 4dr         Sedan              Asia     28.5
+      Toyota  Corolla CE 4dr         Sedan              Asia     36.0
+Region of origin  N    AvgMSRP
+----------------  -  ---------
+            Asia  8  23561.875
+          Europe  2    41495.0
+             USA  2    13807.5

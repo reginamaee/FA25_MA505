@@ -1,0 +1,124 @@
+
+  Obs       MAKE           MODEL   TYPE   MSRP
+-----  ---------  --------------  -----  -----
+    1  Acura      MDX             SUV    36945
+    2  Acura      RSX Type S 2dr  Sedan  23820
+    3  Acura      TSX 4dr         Sedan  26990
+    4  Acura      TL 4dr          Sedan  33195
+    5  BMW        325Ci 2dr       Sedan  30795
+    6  BMW        X5 4.4i         SUV    52195
+    7  Chevrolet  Cavalier 4dr    Sedan  14610
+    8  Ford       Focus LX 4dr    Sedan  13005
+    9  Honda      Accord LX 4dr   Sedan  20140
+   10  Honda      Civic DX 4dr    Sedan  13760
+
+... 2 more observations (showing 10 of 12)
+
+                                                  The MEANS Procedure
+
+ Variable                    N            Mean        Std Dev         Minimum         Maximum
+ --------------------------------------------------------------------------------------------
+ Engine size (liters)       12       2.5416667      0.7879298       1.7000000       4.4000000
+ Maximum horsepower         12     189.6666667     65.9191424     115.0000000     325.0000000
+ --------------------------------------------------------------------------------------------
+
+                                                The UNIVARIATE Procedure
+                                   Variable:  MPG_Highway  (Highway miles per gallon)
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                       31.666667    Sum Observations          380.000000
+Std Deviation               5.726070    Variance                   32.787879
+Skewness                   -0.325908    Kurtosis                   -0.767393
+Uncorrected SS          12394.000000    Corrected SS              360.666667
+Coeff Variation            18.082327    Std Error Mean              1.652974
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      31.666667  Std Deviation   5.726070
+Median    32.000000  Variance       32.787879
+Mode      29.000000  Range          18.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      22.000000
+1%          22.000000
+5%          22.000000
+10%         23.000000
+25% Q1      28.500000
+50% Median  32.000000
+75% Q3      36.500000
+90%         38.000000
+95%         40.000000
+99%         40.000000
+100% Max    40.000000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     22.000000  Value     34.000000
+Value     23.000000  Value     36.000000
+Value     28.000000  Value     37.000000
+Value     29.000000  Value     38.000000
+Value     29.000000  Value     40.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         19.157388791  0.000000001
+Sign                        6  0.000488281
+Signed Rank                78  0.002217859
+
+                                                   The FREQ Procedure
+
+                                              Cumulative    Cumulative
+Region of origin    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+Asia                        8     66.67            8        66.67
+Europe                      2     16.67           10        83.33
+USA                         2     16.67           12       100.00
+
+No observations in dataset.
+
+  Obs       MAKE           MODEL   TYPE  ORIGIN  DRIVETRAIN   MSRP  INVOICE  ENGINESIZE  CYLINDERS  HORSEPOWER  MPG_CITY  MPG_HIGHWAY  WEIGHT  WHEELBASE  LENGTH
+-----  ---------  --------------  -----  ------  ----------  -----  -------  ----------  ---------  ----------  --------  -----------  ------  ---------  ------
+    1  Acura      RSX Type S 2dr  Sedan  Asia    Front       23820    21761           2          4         200        24           31    2778        101     172
+    2  Acura      TSX 4dr         Sedan  Asia    Front       26990    24647         2.4          4         200        22           29    3230        105     183
+    3  Acura      TL 4dr          Sedan  Asia    Front       33195    30299         3.2          6         270        20           28    3575        108     186
+    4  BMW        325Ci 2dr       Sedan  Europe  Rear        30795    28245         2.5          6         184        20           29    3197        107     176
+    5  Chevrolet  Cavalier 4dr    Sedan  USA     Front       14610    13697         2.2          4         140        26           37    2676        104     180
+    6  Ford       Focus LX 4dr    Sedan  USA     Front       13005    11966           2          4         130        27           36    2612        103     168
+    7  Honda      Accord LX 4dr   Sedan  Asia    Front       20140    18361         2.4          4         160        26           34    3064        105     186
+    8  Honda      Civic DX 4dr    Sedan  Asia    Front       13760    12741         1.7          4         115        32           38    2432        103     174
+    9  Toyota     Camry LE 4dr    Sedan  Asia    Front       19560    17558         2.4          4         157        24           33    3086        107     189
+   10  Toyota     Corolla CE 4dr  Sedan  Asia    Front       14085    12787         1.8          4         130        32           40    2502        102     178
+
+No observations in dataset.
+
+  Obs   MAKE  MODEL  TYPE  ORIGIN  DRIVETRAIN   MSRP  INVOICE  ENGINESIZE  CYLINDERS  HORSEPOWER  MPG_CITY  MPG_HIGHWAY  WEIGHT  WHEELBASE  LENGTH
+-----  -----  -----  ----  ------  ----------  -----  -------  ----------  ---------  ----------  --------  -----------  ------  ---------  ------
+    1  Acura  MDX    SUV   Asia    All         36945    33337         3.5          6         265        17           23    4451        106     189
+
+  Obs   TYPE   MAKE           MODEL   MSRP
+-----  -----  -----  --------------  -----
+    1  SUV    Acura  MDX             36945
+    2  Sedan  Acura  RSX Type S 2dr  23820
+    3  Sedan  Acura  TSX 4dr         26990
+    4  Sedan  Acura  TL 4dr          33195
+
+                                                   The FREQ Procedure
+
+                                              Cumulative    Cumulative
+Region of origin    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+Asia                        4    100.00            4       100.00
